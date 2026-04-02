@@ -1,4 +1,5 @@
 .terraform/
+terraform*
 
 #ssh and pem key
 .ssh/
