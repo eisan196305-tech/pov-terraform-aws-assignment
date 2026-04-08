@@ -6,4 +6,10 @@ terraform*
 *.pem
 *.pub
 *.tfstate
-*.tfstate.backup
+*.tfstate.*
+.terraform/providers/
+.terraform/providers/registry.terraform.io/
+.terraform/modules/
+.terraform/modules/registry.terraform.io/
+terraform-provider-*
+terraform-plugin-cache/
