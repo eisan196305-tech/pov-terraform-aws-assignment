@@ -1,2 +1,4 @@
+*.bin filter=lfs diff=lfs merge=lfs -text
+.terraform/** filter=lfs diff=lfs merge=lfs -text
 **/.terraform/** filter=lfs diff=lfs merge=lfs -text
 **/.terraform.lock.hcl filter=lfs diff=lfs merge=lfs -text
