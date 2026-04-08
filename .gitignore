@@ -13,3 +13,4 @@ terraform*
 .terraform/modules/registry.terraform.io/
 terraform-provider-*
 terraform-plugin-cache/
+.DS_Store
