@@ -46,15 +46,15 @@ difference of v0 , instead of raw `resource` blocks by using **public modules** 
 
 | Component | Detail |
 |---|---|
-| Dashboard EC2 | Public subnet, port 9002, public IP 포함 |
-| Counting EC2 | Private subnet, port 9001, Dashboard 에서만 접근 |
+| Dashboard EC2 | Public subnet, port 9002, public IP  |
+| Counting EC2 | Private subnet, port 9001, Dashboard  |
 | NAT Gateway | Private subnet → internet outbound |
 
 ---
 
-## Public Modules ที่ใช้
+## Public Modules 
 
-| Module | Version | ทำหน้าที่ |
+| Module | Version  |
 |---|---|---|
 | [terraform-aws-modules/vpc/aws](https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws) | `~> 5.0` | VPC, Subnets, IGW, NAT Gateway, Route Tables |
 | [terraform-aws-modules/security-group/aws](https://registry.terraform.io/modules/terraform-aws-modules/security-group/aws) | `~> 5.0` | Dashboard SG, Counting SG |
